@@ -9,12 +9,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring-config.xml")
-public class SpringAppTests {
-    @Autowired
-    private HelloService helloService;
+public class SpringAppTests
+{
 
-    @Test
-    public void testSayHello() {
-        Assert.assertEquals("Hello world!", helloService.sayHello());
-    }
 }
