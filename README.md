@@ -9,3 +9,6 @@ http://javabrains.koushik.org/courses/spring_core/lessons/Setting-Up
 
 Lesson: Writing Code Using the Bean Factory
 http://javabrains.koushik.org/courses/spring_core/lessons/Writing-Code-Using-the-Bean-Factory
+
+Lesson: ApplicationContext and Property Initialization
+http://javabrains.koushik.org/courses/spring_core/lessons/ApplicationContext-and-Property-Initialization

@@ -3,5 +3,7 @@
 
 
 <beans>
-    <bean id="triangle" class="com.maynard.mitch.Triangle" />
+    <bean id="triangle" class="com.maynard.mitch.Triangle" >
+        <property name="type" value="Equilateral"></property>
+    </bean>
 </beans>
