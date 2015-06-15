@@ -4,6 +4,10 @@
 
 <beans>
     <bean id="triangle" class="com.maynard.mitch.Triangle" >
-        <property name="type" value="Equilateral"></property>
+        <!--<constructor-arg type="java.lang.String" value="20"></constructor-arg>-->
+        <constructor-arg index="0" value="Equilateral"></constructor-arg>
+        <constructor-arg index="1" value="20"></constructor-arg>
+       <!-- <constructor-arg type="int" value="20"></constructor-arg>
+        <constructor-arg type="java.lang.String" value="Equilateral"></constructor-arg>-->
     </bean>
 </beans>

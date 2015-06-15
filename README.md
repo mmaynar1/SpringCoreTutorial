@@ -12,3 +12,6 @@ http://javabrains.koushik.org/courses/spring_core/lessons/Writing-Code-Using-the
 
 Lesson: ApplicationContext and Property Initialization
 http://javabrains.koushik.org/courses/spring_core/lessons/ApplicationContext-and-Property-Initialization
+
+Lesson: Using Constructor Injection
+http://javabrains.koushik.org/courses/spring_core/lessons/Using-Constructor-Injection
