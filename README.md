@@ -15,3 +15,6 @@ http://javabrains.koushik.org/courses/spring_core/lessons/ApplicationContext-and
 
 Lesson: Using Constructor Injection
 http://javabrains.koushik.org/courses/spring_core/lessons/Using-Constructor-Injection
+
+Lesson: Injecting Objects
+http://javabrains.koushik.org/courses/spring_core/lessons/Injecting-Objects

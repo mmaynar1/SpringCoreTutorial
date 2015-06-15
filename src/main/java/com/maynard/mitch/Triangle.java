@@ -2,42 +2,44 @@ package com.maynard.mitch;
 
 public class Triangle
 {
-    private String type;
-    private int height;
-
-    public Triangle( String type )
-    {
-        this.type = type;
-    }
-
-    public Triangle( int height )
-    {
-        this.height = height;
-    }
-
-    public Triangle( String type, int height )
-    {
-        this.type = type;
-        this.height = height;
-    }
+    private Point pointA;
+    private Point pointB;
+    private Point pointC;
 
     public void draw()
     {
-        System.out.println( getType() + " triangle drawn of height " + getHeight() );
+        System.out.println("Point A = (" + getPointA().getX() + ", " + getPointA().getY() + ")\n" +
+                           "Point B = (" + getPointB().getX() + ", " + getPointB().getY() + ")\n" +
+                           "Point C = (" + getPointC().getX() + ", " + getPointC().getY() + ")");
     }
 
-    public String getType()
+    public Point getPointA()
     {
-        return type;
+        return pointA;
     }
 
-    public int getHeight()
+    public void setPointA( Point pointA )
     {
-        return height;
+        this.pointA = pointA;
     }
 
-    /*    public void setType( String type )
+    public Point getPointB()
     {
-        this.type = type;
-    }*/
+        return pointB;
+    }
+
+    public void setPointB( Point pointB )
+    {
+        this.pointB = pointB;
+    }
+
+    public Point getPointC()
+    {
+        return pointC;
+    }
+
+    public void setPointC( Point pointC )
+    {
+        this.pointC = pointC;
+    }
 }

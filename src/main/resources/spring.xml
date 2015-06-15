@@ -3,11 +3,21 @@
 
 
 <beans>
-    <bean id="triangle" class="com.maynard.mitch.Triangle" >
-        <!--<constructor-arg type="java.lang.String" value="20"></constructor-arg>-->
-        <constructor-arg index="0" value="Equilateral"></constructor-arg>
-        <constructor-arg index="1" value="20"></constructor-arg>
-       <!-- <constructor-arg type="int" value="20"></constructor-arg>
-        <constructor-arg type="java.lang.String" value="Equilateral"></constructor-arg>-->
+    <bean id="triangle" class="com.maynard.mitch.Triangle">
+        <property name="pointA" ref="zeroPoint"></property>
+        <property name="pointB" ref="point2"></property>
+        <property name="pointC" ref="point3"></property>
+    </bean>
+    <bean id="zeroPoint" class="com.maynard.mitch.Point">
+        <property name="x" value="0"></property>
+        <property name="y" value="0"></property>
+    </bean>
+    <bean id="point2" class="com.maynard.mitch.Point">
+        <property name="x" value="-20"></property>
+        <property name="y" value="0"></property>
+    </bean>
+    <bean id="point3" class="com.maynard.mitch.Point">
+        <property name="x" value="20"></property>
+        <property name="y" value="0"></property>
     </bean>
 </beans>
