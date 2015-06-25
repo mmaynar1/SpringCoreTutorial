@@ -18,3 +18,6 @@ http://javabrains.koushik.org/courses/spring_core/lessons/Using-Constructor-Inje
 
 Lesson: Injecting Objects
 http://javabrains.koushik.org/courses/spring_core/lessons/Injecting-Objects
+
+Lesson: Inner Beans, Aliases, and idref
+http://javabrains.koushik.org/courses/spring_core/lessons/Inner-Beans,-Aliases-and-idref
